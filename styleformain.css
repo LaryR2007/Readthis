@@ -1,0 +1,13 @@
+/* STYLE SHEET FOR INDEX.HTM */
+
+body {
+  font-size: 90%;
+  font-family: arial, helvetica, georgia, sans-serif;
+}
+footer {
+  font-size: 80%;
+  text-align: center;
+}
+h1 {
+  font-family: arial, helvetica, georgia, sans-serif;
+}
