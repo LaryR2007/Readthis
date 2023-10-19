@@ -6,16 +6,34 @@
         <link rel="stylesheet" type="text/css" href="styleformain.css" />
         <title>Books to Read</title>
     </head>
-    <body>
+
+    <script>
+function init() {
+    var loc = window.location.href;
+    var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+    var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
+                          loc + '?profile=css3';
+    document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
+    document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
+  }
+    </script>
+    
+    
+<body>
+    <header>
+        <img src="crybby copy.png" alt="book logo"/>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="https://www.nypl.org/books-more/recommendations/best-books/teens">Best Books for Teens 2022</a></li>
+            <li><a href="https://www.youtube.com/watch?v=YyXA6mv0tCE">Top 10 Book Recommendations For Teenagers (14 to 18 Years)</a></li>
+        </ul>
+    </nav>
     <main>
         <article>
+            
         <h1> Some Book Recommendations For A Bored Highschooler</h1>
-        <p>
-            <audio controls>
-                <source src="Goldilocks.ogg" type="audio/ogg">
-                <source src="Goldilocks.mp3" type="audio/mpeg">
-              </audio>  
-        </p>
+        <p><img src="books.jpeg" id="img" alt="books picture"/></p>
         <p>As a high school student, the most popular books on our reading list 
         cover a wide spectrum of genres and themes that resonate with our diverse interests. 
         Classics like "To Kill a Mockingbird" by Harper Lee and "The Great Gatsby" by 
@@ -31,14 +49,42 @@
         to think critically and empathize with different perspectives, which is 
         why they remain enduring favorites among high schoolers like us. </p>
         
-        <p>
-            <video width="320" height="240" controls>           
-                <source src="Books.mp4" type="video/mp4">
-               <source src="Books.ogg" type="video/ogg">
-           </video>
-        </p>
-</article>    
-</main>
+        </article>
+        <article>
+            
+            <h2>"Mad Honey" by Jodi Picoult & Jennifer Finney</h2>
+            <p>
+                The story revolves around the case of 18-year-old Asher Fields, who is charged with 
+                the murder of his girlfriend, Lily Campanello. Asher's mother, Olivia McAfee, 
+                initially believes in his innocence but is reminded of the similarities between Asher 
+                and her abusive ex-husband, Asher's father.J
+            </p>
+            <p>
+                <video width="320" height="240" controls>           
+                    <source src="Books.mp4" type="video/mp4">
+                <source src="Books.ogg" type="video/ogg">
+                </video>
+            </p>
+        <article>
+            
+            <h2>"The Sunbearer Trials" by Aiden Thomas</h2>
+            <p>
+                Once every decade The Sunbearer Trials take place to choose the best semidios (demigods) 
+                who keeps the sun stone fueled and ensure the safety of the world for next ten years. 
+                Gold semidioses are strongest and most powerful and for many years only they are 
+                selected to compete in the trials.
+            </p>
+            <p>
+                <audio controls>
+                    <source src="Goldilocks.ogg" type="audio/ogg">
+                    <source src="Goldilocks.mp3" type="audio/mpeg">
+                </audio>  
+            </p>
+        </article>    
+    </main>
+    <footer>
+
+    </footer>
 </body>
 
 </html>

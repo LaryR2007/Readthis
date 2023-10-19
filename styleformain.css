@@ -1,13 +1,53 @@
-/* STYLE SHEET FOR INDEX.HTM */
+/* STYLE SHEET FOR INDEX.HTML */
 
 body {
   font-size: 90%;
   font-family: arial, helvetica, georgia, sans-serif;
+  background-color: #faebd7;
+}
+header {
+  text-align: center;
+}
+#img {
+  width: 20%;
+  height: auto;
 }
 footer {
   font-size: 80%;
   text-align: center;
+  clear: both;
 }
 h1 {
   font-family: arial, helvetica, georgia, sans-serif;
 }
+nav {
+  font-weight: bold;
+  position: absolute;
+  background-color: rgb(255, 218, 169);
+  width: 100%;
+  color: rgb(255, 213, 0);
+  border-top-left-radius: 0.25em;
+	border-top-right-radius: 0.25em;
+  text-align: center;
+  font-family:sans-serif;
+  font-size: larger;
+  
+}
+nav + main {
+  padding-top: 80px;
+}
+a, a:visited {
+  text-decoration: none;
+  color: rgb(138, 214, 255);
+}
+ul, li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px 30px;
+  vertical-align: middle;
+}
+ul li a:hover {
+  background-color: rgba(255, 246, 226, 0.638);
+}
+
+
