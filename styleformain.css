@@ -3,7 +3,7 @@
 body {
   font-size: 90%;
   font-family: arial, helvetica, georgia, sans-serif;
-  background-color: #e2e7fc;
+  background-color: #dde4ff;
 }
 header {
   text-align: center;
@@ -33,7 +33,7 @@ nav {
   position: absolute;
   background-color: rgb(255, 218, 169);
   width: 99%;
-  color: rgb(198, 207, 255);
+  color: rgb(255, 255, 255);
   border-top-left-radius: 0.25em;
 	border-top-right-radius: 0.25em;
   text-align: center;
@@ -43,6 +43,15 @@ nav {
 nav + main {
   padding-top: 80px;
 }
+.button{
+  display: block;
+  border: 2px solid #a1a1a1;
+  padding: 2px 5px;
+  background: #dde4ff;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 5px 5px 5px #888888;
+}
 .floatright {
   float: right;
   clear: right;
@@ -51,7 +60,7 @@ nav + main {
 }
 a, a:visited {
   text-decoration: none;
-  color: rgb(138, 214, 255);
+  color: rgb(255, 255, 255);
 }
 ul, li {
   list-style: none;
@@ -60,7 +69,7 @@ ul, li {
   vertical-align: middle;
 }
 ul li a:hover {
-  background-color: rgba(255, 246, 226, 0.638);
+  background-color: rgba(255, 165, 198, 0.638);
 }
 
 
