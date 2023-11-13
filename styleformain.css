@@ -5,13 +5,12 @@ body {
   font-family: arial, helvetica, georgia, sans-serif;
   background-color: #dde4ff;
 }
+/* top*/
 header {
   text-align: center;
 }
-#img {
-  width: 20%;
-  height: auto;
-}
+/**/
+
 footer {
   font-size: 80%;
   text-align: center;
@@ -28,6 +27,10 @@ article{
 h1 {
   font-family: arial, helvetica, georgia, sans-serif;
 }
+h1~p {
+  font-style: italic;
+}
+/*Nav*/
 nav {
   font-weight: bold;
   position: absolute;
@@ -43,6 +46,51 @@ nav {
 nav + main {
   padding-top: 80px;
 }
+.navlinks {
+  display: block;
+  border: 2px solid #a1a1a1;
+  padding: 2px 5px;
+  background: #add8e6;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 5px 5px 5px #888888;
+}
+/*Animation*/
+#animation {
+  position: relative;
+  /* Safari and Chrome: */
+  -webkit-animation-name: logoanimation;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-play-state: running;
+  animation-name: logoanimation;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-play-state: running;
+}
+@font-face {
+  font-family: oregonfont;
+  src: url("../media/oregon book.ttf");
+}
+@keyframes logoanimation {
+  0% {
+      left: 110%;
+      top: 0px;
+  }
+  50% {
+      left: 0px;
+      top: 0px;
+  }
+  100% {
+      left: 0px;
+      top: 0px;
+  }
+}
+/**/
 .button{
   display: block;
   border: 2px solid #a1a1a1;
@@ -71,5 +119,6 @@ ul, li {
 ul li a:hover {
   background-color: rgba(255, 165, 198, 0.638);
 }
+
 
 
